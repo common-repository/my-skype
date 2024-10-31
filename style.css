@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Redressed);
+@import url(http://fonts.googleapis.com/css?family=Aclonica);
+
+#myskype-user, #myskype-title {
+	border-radius: 10px;
+	border-style:solid;
+	border-color:#06B6EE;
+	border-width:2px;
+	box-shadow:1px 4px 16px #fff;
+	font-family: 'Redressed', cursive;
+	font-size:20px;
+}
+
+label, #your-profile label + a {
+  	vertical-align: middle;
+  	font-family: 'Aclonica', sans-serif;
+  	font-size:20px;
+  	color: #06B6EE;
+}
+
+.widgets-holder-wrap .widget-inside {
+	background: #e5e696; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e5e696 0%, #d1d360 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e696), color-stop(100%,#d1d360)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e5e696 0%,#d1d360 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e5e696 0%,#d1d360 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e696', endColorstr='#d1d360',GradientType=0 ); /* IE6-9 */
+
+  	border: 1px solid;
+  	border-radius: 0 0 10px 10px;
+ 	line-height: 16px;
+  	padding: 1px 15px 15px;
+}
+.widget-title {
+	background: #e6f0a3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6f0a3), color-stop(50%,#d2e638), color-stop(51%,#c3d825), color-stop(100%,#dbf043)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e6f0a3 0%,#d2e638 50%,#c3d825 51%,#dbf043 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f0a3', endColorstr='#dbf043',GradientType=0 ); /* IE6-9 */
+}
+.in-widget-title{
+	color:#000000;
+}
